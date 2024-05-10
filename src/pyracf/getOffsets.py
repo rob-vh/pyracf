@@ -12,6 +12,9 @@ urls = [
 "https://www.ibm.com/docs/en/SSLTBW_3.1.0/com.ibm.zos.v3r1.icha300/grr.htm"
 ]
 
+if __name__ != '__main__':
+    exit()
+    
 model = {}
 
 for url in urls:
